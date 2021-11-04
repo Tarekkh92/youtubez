@@ -5,7 +5,7 @@
 function connect() {
 
     // Connect to the database: 
-    $connection = mysqli_connect("localhost", "root", "", "projectphp");
+    $connection = mysqli_connect("us-cdbr-east-04.cleardb.com", "b5cdfe29746b47", "7ed8a689", "heroku_b1d201ded72f0a6");
 
     // If there is an error connecting to the database: 
     if(mysqli_connect_errno($connection)) {
